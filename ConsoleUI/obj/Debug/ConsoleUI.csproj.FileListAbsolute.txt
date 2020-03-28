@@ -1,0 +1,7 @@
+C:\VCS\ReadFromTextFile\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\VCS\ReadFromTextFile\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\VCS\ReadFromTextFile\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\VCS\ReadFromTextFile\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\VCS\ReadFromTextFile\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\VCS\ReadFromTextFile\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\VCS\ReadFromTextFile\ConsoleUI\obj\Debug\ConsoleUI.pdb
