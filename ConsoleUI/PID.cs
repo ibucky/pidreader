@@ -9,6 +9,6 @@ namespace ConsoleUI
     public class PID
     {
         public string frame { get; set; }
-        public string batteryVoltage { get; set; }
+        public string time { get; set; }
     }
 }

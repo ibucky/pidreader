@@ -13,23 +13,23 @@ namespace ConsoleUI
         {
             string filePath = @"C:\VCS\ALJ820052EngineData1.txt";
 
-            List<PID> timeFrame = new List<PID>();
+            List<PID> snapshot = new List<PID>();
             List<string> lines = File.ReadAllLines(filePath).ToList();
 
             foreach (string line in lines)
             {
                 string[] column = line.Split('\t');
-
+                //
                 PID newPid = new PID();
                 newPid.frame = column[0];
-                newPid.batteryVoltage = column[1];
+                newPid.time = column[1];
 
-                timeFrame.Add(newPid);
+                snapshot.Add(newPid);
             }
 
-            foreach (var timeSegment in timeFrame)
+            foreach (var pid in snapshot)
             {
-                Console.WriteLine($"{timeSegment.frame} {timeSegment.batteryVoltage}");
+                Console.WriteLine($"{pid.frame} {pid.time}");
             }
             
             Console.ReadLine();
