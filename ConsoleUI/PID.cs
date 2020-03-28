@@ -8,7 +8,9 @@ namespace ConsoleUI
 {
     public class PID
     {
-        public string frame { get; set; }
-        public string time { get; set; }
+        public string name { get; set; }
+        public string description { get; set; }
+        public string units { get; set; }
+        public string data { get; set; }
     }
 }
